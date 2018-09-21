@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Hellobim - Bim server</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'/>
+  <link rel="stylesheet" href="css/demo.css"/>
+  <link rel="stylesheet" href="css/apiref.css"/>
+  <link rel="stylesheet" href="css/tree.css"/>
+  <link rel="stylesheet" href="css/metadata.css"/>
+  <link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+</head>
+<body>
+<div id="maincontainer">
+  <div id="topsection">
+    <h1>Hellobim</h1>
+  </div>
+  <div id="contentwrapper">
+    <div id="colmid">
+      <div id="colright">
+        <div id="col1wrap">
+          <div id="col1pad">
+            <div id="viewerContainer">
+            </div>
+          </div>
+        </div>
+        <div id="treeContainer" class="bimsurfer-static-tree">
+        </div>
+        <div id="dataContainer" class="bimsurfer-metadata">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="status"></div>
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/require.js"></script>
+
+<script type="text/javascript" src="bimserver/bimserverclient.js"></script>
+<script type="text/javascript" src="bimserver/model.js"></script>
+<script type="text/javascript" src="bimserver/bimserverapiwebsocket.js"></script>
+<script type="text/javascript" src="bimserver/bimserverapipromise.js"></script>
+<script type="text/javascript" src="bimserver/geometry.js"></script>
+<script type="text/javascript" src="bimserver/ifc2x3tc1.js"></script>
+<script type="text/javascript" src="bimserver/ifc4.js"></script>
+<script type="text/javascript" src="bimserver/translations_en.js"></script>
+
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+<script type="text/javascript" src="js/loadModel.js"></script>
+
+</body>
+</html>
